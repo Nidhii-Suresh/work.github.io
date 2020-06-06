@@ -1,0 +1,89 @@
+html,
+body {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("https://media.istockphoto.com/photos/abstract-gray-gradient-color-background-picture-id1009726070?k=6&m=1009726070&s=612x612&w=0&h=8Qevqqwi4y9Z5ozgk3kFA9iyZ0ABwMCS5cA-SUh3ONU=");
+    /* background-color: #EDEBEC; */
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-1 {
+    width: 45%;
+    height: 401px;
+    background-color: white;
+
+    margin-right: auto;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+
+}
+
+.container-1>h2 {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.container-1>form {
+    padding-right: 30;
+    padding-left: 30;
+}
+
+.form-group>input {
+    border-radius: 50px;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 8px 14px;
+    margin-top: 5px;
+}
+
+.container-2 {
+    background-image: url("Images/leftlog.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    display: block;
+    width: 55%;
+    height: 401px;
+    background-color: white;
+
+    margin-left: auto;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 20px;
+
+
+
+}
+
+.container-3 {
+    box-shadow: 0px 0px 10px #a9a9a9;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+    top: 25%;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
